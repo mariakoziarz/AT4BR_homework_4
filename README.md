@@ -136,6 +136,3 @@ If you want to specify, you can add name of remote repository and branch name.
 
 And now you can peacfully close all windows on your computer, log out and go to rest. :smiley:
 
-- Nested
-    * Bullet
-        + List
