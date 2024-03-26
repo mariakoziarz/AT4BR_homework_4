@@ -32,6 +32,7 @@ Branch is a new version of the main repository - it means you can change it in t
 
 There are few commands connected with branches
     - First things first - you need to create a new branch
+    
     ```
     > git branch <branch_name>
 
@@ -48,7 +49,7 @@ There are few commands connected with branches
     > git merge <branch_name>
 
     ```
-    
+
     - if you want to delete branch you can do it by adding a simple flag `-d`
 
     ```
