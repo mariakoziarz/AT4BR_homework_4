@@ -31,8 +31,9 @@ This command will let you download the code to your computer.
 Branch is a new version of the main repository - it means you can change it in the way you want without demaging your main repository. 
 
 There are few commands connected with branches
+
     - First things first - you need to create a new branch
-    
+
     ```
     > git branch <branch_name>
 
@@ -63,4 +64,3 @@ There are few commands connected with branches
 
     ```
 
-- 
