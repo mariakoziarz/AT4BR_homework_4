@@ -32,35 +32,35 @@ Branch is a new version of the main repository - it means you can change it in t
 
 There are few commands connected with branches
 
-    - First things first - you need to create a new branch
+   - First things first - you need to create a new branch
 
-    ```
-    > git branch <branch_name>
+```
+> git branch <branch_name>
 
-    ```
-    - Now when we have our branch we can move to it. To do so you need to use this command:
+ ```
+   - Now when we have our branch we can move to it. To do so you need to use this command:
 
-    ```
-    > git checkout <branch_name>
+```
+> git checkout <branch_name>
 
-    ```
-    - another useful feature can be merging the branches
+```
+   - another useful feature can be merging the branches
 
-    ```
-    > git merge <branch_name>
+```
+> git merge <branch_name>
 
-    ```
+```
 
-    - if you want to delete branch you can do it by adding a simple flag `-d`
+   - If you want to delete branch you can do it by adding a simple flag `-d`
 
-    ```
-    > git branch -d <branch_name>
+```
+> git branch -d <branch_name>
 
-    ```
-    - If you want to see the list of your branches you just need to do this:
+```
+   - If you want to see the list of your branches you just need to do this:
 
-    ```
-    > git branch
+```
+> git branch
 
-    ```
+```
 
