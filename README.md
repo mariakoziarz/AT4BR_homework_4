@@ -30,41 +30,42 @@ This command will let you download the code to your computer.
 ### Working on your project :woman_technologist:
 - branch
 
-A branch is a new version of the main repository - it means you can change it in the way you want without demaging your main repository. 
+    A branch is a new version of the main repository - it means you can change it in the way you want without demaging your main repository. 
 
-There are a few commands connected with branches:
+    There are a few commands connected with branches:
 
-   * First things first - you need to create a new branch
+    * First things first - you need to create a new branch 
+        
+        ```
+        > git branch <branch_name>     
+        
+        ```
+    
+    * Now when we have our branch we can move to it. To do so you need to use this command:
 
-```
-> git branch <branch_name>
+        ```
+        > git checkout <branch_name>
 
- ```
-   * Now when we have our branch we can move to it. To do so you need to use this command:
+        ```
+    * Another useful feature can be merging the branches:
 
-```
-> git checkout <branch_name>
+        ```
+        > git merge <branch_name>
 
-```
-   * Another useful feature can be merging the branches:
+        ```
 
-```
-> git merge <branch_name>
+    * If you want to delete branch you can do it by adding a simple flag `-d`
 
-```
+        ```
+        > git branch -d <branch_name>
 
-   * If you want to delete branch you can do it by adding a simple flag `-d`
+        ```
+    * If you want to see the list of your branches you just need to do this:
 
-```
-> git branch -d <branch_name>
+        ```
+        > git branch
 
-```
-   * If you want to see the list of your branches you just need to do this:
-
-```
-> git branch
-
-```
+        ```
 - Add
 
 The `add` command adds files in your working area to to the Git staging area. You can use it to add new files or changed files.
