@@ -25,9 +25,9 @@ To do that, you need to clone the desired repository.
 ```
 This command will let you download the code to your computer.
 
-**Congratulaions, you have created your first repository!**`:partying_face:`
+**Congratulaions, you have created your first repository!**:partying_face:
 
-### Working on your project `:woman_technologist:`
+### Working on your project :woman_technologist:
 - branch
 
 A branch is a new version of the main repository - it means you can change it in the way you want without demaging your main repository. 
@@ -118,7 +118,7 @@ The `diff` commandlists out the changes between your current working directory a
 > git diff
 
 ```
-### Last but not least (actually most important) `:loudspeaker:`
+### Last but not least (actually most important) :loudspeaker:
 
 The `push` command pushes the committed file changes from the local repository to the remote repository so others can use them.
 
@@ -133,4 +133,8 @@ If you want to specify, you can add name of remote repository and branch name.
 
 ```
 
-And now you can peacfully close all windows on your computer, log out and go to rest.`:smiley:`
+And now you can peacfully close all windows on your computer, log out and go to rest. :smiley:
+
+- Nested
+    * Bullet
+        + List
